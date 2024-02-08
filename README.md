@@ -17,6 +17,10 @@ Our script adeptly manages mixed discrete-continuous actions and varying agent n
 We include example text teams and agent checkpoints in [examples/](examples/). Notably, non-uniform team compositions 
 can also be tested, allowing for testing out-of-distribution agent generalization capabilities. 
 
+### Output
+
+The testing scripts will output a csv with results (the winning team identification, statistics like time hidden etc..) with a single row per match.
+
 #### Unity Dodgeball Elimination
 `
 python unity_dodgeball_tester.py path_to_environment -e 1 -a 4 -t0 examples/dodgeball_elimination_team0.txt -t1 examples/dodgeball_elimination_team1.txt
@@ -52,6 +56,10 @@ where `path_to_environment` is the path to `predprey.x86_64` -- the compiled Pre
 This environment requires additionally, the path to the config json files through the arguments `--game_params`, `--arena_params`, see for more details the 
 [Hide \& Seek and Predator-Prey environments](https://github.com/MIMUW-RL/unity-ml-agents_hide-and-seek).
 
-Testers can be used to reproduce results presented in the submitted paper 'FCSP: Fictitious Co-Self-Play for Team-based, Multi-agent Reinforcement Learning', preprint available on request.
+
+The tester results can be further processed to generate visualizations.
+Testers can be used to reproduce results presented in the submitted paper 'FCSP: Fictitious Co-Self-Play for Team-based, Multi-agent Reinforcement Learning', preprint available on request
+
+<img src="/imgs/result1.jpg" alt="FCSP robustness test results" width="500"/><img src="/imgs/result2.jpg" alt="Predator-Prey win-rate results" width="500"/>
 
 Reach out in case of further inquiries.
