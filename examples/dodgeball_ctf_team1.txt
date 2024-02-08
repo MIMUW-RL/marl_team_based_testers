@@ -1,0 +1,3 @@
+examples/dodgeball_ctf_checkpoints/FCSP2-poca-50M.onnx
+examples/dodgeball_ctf_checkpoints/FCSP2-poca-50M.onnx
+examples/dodgeball_ctf_checkpoints/FCSP2-poca-50M.onnx
