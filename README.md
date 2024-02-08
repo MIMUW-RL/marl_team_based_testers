@@ -60,6 +60,6 @@ This environment requires additionally, the path to the config json files throug
 The tester results can be further processed to generate visualizations.
 Testers can be used to reproduce results presented in the submitted paper 'FCSP: Fictitious Co-Self-Play for Team-based, Multi-agent Reinforcement Learning', preprint available on request
 
-<img src="/imgs/result1.jpg" alt="FCSP robustness test results" width="500"/><img src="/imgs/result2.jpg" alt="Predator-Prey win-rate results" width="500"/>
+<img src="/imgs/result1.jpg" alt="FCSP robustness test results" width="450"/><img src="/imgs/result2.jpg" alt="Predator-Prey win-rate results" width="450"/>
 
 Reach out in case of further inquiries.
