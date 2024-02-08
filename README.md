@@ -1,11 +1,11 @@
 ## Python testers for team-based MARL environments
 ## Unity ML-Agents compatible
 
-We present python scripts for testing agents in team-based MARL environments. 
+We present Python scripts for testing agents in team-based MARL environments. 
 Currently, the scripts are [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) compatible, 
-however will work with any compiled team-based MARL environment with similar Python interface. 
-The scripts fills the gap for team-based Unity ML-Agents MARL, where a proper testing framework has been
-unavailable, and allows for comprehensive and thorough tests of agents in team-based fashion, in environments
+however, it will work with any compiled team-based MARL environment with a similar Python interface. 
+The scripts fill the gap for team-based Unity ML-Agents MARL, where a proper testing framework has been
+unavailable, and allows for comprehensive tests of agents in a team-based fashion, in environments
 like the cool [Unity Dodgeball](https://blog.unity.com/engine-platform/ml-agents-plays-dodgeball), and our 
 new custom [Hide \& Seek and Predator-Prey environments](https://github.com/MIMUW-RL/unity-ml-agents_hide-and-seek).
 
@@ -14,8 +14,8 @@ new custom [Hide \& Seek and Predator-Prey environments](https://github.com/MIMU
 Teams are defined through input .txt files that indicate the behavioral policy checkpoint for each agent. 
 These checkpoints are in the Open Neural Network Exchange (ONNX) format, ensuring compactness and framework independence.
 Our script adeptly manages mixed discrete-continuous actions and varying agent numbers, efficiently handling in-game events like agent eliminations.
-We include example txt teams and agent checkpoints in [examples/](examples/). Notably, non-uniform teams compositions 
-can be also tested, allowing for testing out-of-distribution agent generalization capabilities. 
+We include example text teams and agent checkpoints in [examples/](examples/). Notably, non-uniform team compositions 
+can also be tested, allowing for testing out-of-distribution agent generalization capabilities. 
 
 #### Unity Dodgeball Elimination
 `
@@ -53,3 +53,5 @@ This environment requires additionally, the path to the config json files throug
 [Hide \& Seek and Predator-Prey environments](https://github.com/MIMUW-RL/unity-ml-agents_hide-and-seek).
 
 Testers can be used to reproduce results presented in the submitted paper 'FCSP: Fictitious Co-Self-Play for Team-based, Multi-agent Reinforcement Learning', preprint available on request.
+
+Reach out in case of further inquiries.
